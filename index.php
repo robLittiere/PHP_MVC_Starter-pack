@@ -8,9 +8,15 @@ $uri = $_SERVER['REQUEST_URI'];
 $router = new AltoRouter();
 $router->setBasePath(ROOT);
 
+
+
 $router->map('GET', '/', function () {
   echo "<h1> Project Correctly inited </h1>";
 }, "home");
+
+
+
+
 
 // Get match object to see if a route has been matched
 $match = $router->match();
