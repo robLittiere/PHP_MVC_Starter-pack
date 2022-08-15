@@ -6,8 +6,8 @@
  * 
  * 
  */
-define('ROOT', '/');
-define('PROJECT_ROOT', '/');
+define('ROOT', '/starter_mvc');
+define('PROJECT_ROOT', '/starter_mvc');
 
 // Here to send mails
 define('DOMAIN_NAME', 'http://localhost');
