@@ -1,0 +1,17 @@
+{
+    "name": "zautslocal/cod-flix",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "robLittiere",
+            "email": "robinl.95@orange.fr"
+        }
+    ],
+    "require": {
+        "altorouter/altorouter": "^2.0"
+    }
+}
